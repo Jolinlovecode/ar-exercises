@@ -5,3 +5,11 @@ puts "Exercise 2"
 puts "----------"
 
 # Your code goes here ...
+@store1 = Store.new
+@store1 = Store.find_by(id:1)
+
+@store2 = Store.new
+@store2 = Store.second
+
+@store1.update(name: 'Brentwood')
+puts @store1.name
